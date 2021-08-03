@@ -1,0 +1,35 @@
+{
+  "name": "liquiditylockedproject",
+  "version": "1.0.0",
+  "description": "This is an assingment given to me by team unbound.finance",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnab11917676/uniswapLiquidityLockedContract.git"
+  },
+  "keywords": [
+    "uniswap"
+  ],
+  "author": "Arnab Ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnab11917676/uniswapLiquidityLockedContract/issues"
+  },
+  "homepage": "https://github.com/Arnab11917676/uniswapLiquidityLockedContract#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.3",
+    "hardhat": "^2.5.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v3-core": "^1.0.0"
+  }
+}
